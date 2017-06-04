@@ -1,7 +1,8 @@
 let ui = {
   renderPosts(posts){
     let elements = posts.map( (post) => {
-      return articleTemplate;
+      let {title, lastReply} = post;
+      return articleTemplate(title, lastReply);
     });
 
     let target = document.querySelector('.container');
@@ -9,15 +10,17 @@ let ui = {
   }
 }
 
-let articleTemplate = `
-  <article class="post">
-    <h2 class="post-title">
-      In hybrid moments, give me a moment
-    </h2>
-    <p class="post-meta">
-    Last reply on July 7
-    </p>
-  </article>`
-
+function articleTemplate (title, lastReply){
+  let template = `
+    <article class="post">
+      <h2 class="post-title">
+        ${title}
+      </h2>
+      <p class="post-meta">
+        ${lastReply}
+      </p>
+    </article>`;
+  return template;
+}
 
 export default ui;
