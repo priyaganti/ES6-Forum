@@ -1,7 +1,7 @@
-let Post = {
-  findAll(){
+let User = {
+  findAllActive(){
     return new Promise( (resolve, reject) => {
-      let uri = "http://localhost:3000/posts";
+      let uri = "http://localhost:3000/activeUsers";
       let request = new XMLHttpRequest();
       request.open("GET", uri, true);
       request.onload = () => {
@@ -17,4 +17,4 @@ let Post = {
   }
 };
 
-export default Post;
+export default User;
