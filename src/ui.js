@@ -35,7 +35,7 @@ function articleTemplate (title, lastReply){
 function sidebarTemplate (name, avatar){
   let template = `
     <div class="active-avatar">
-      <img width="54" src="images/${avatar}">
+      <img width="54" src="assets/images/${avatar}">
       <h5 class="post-author">${name}</h5>
     </div>`;
   return template;

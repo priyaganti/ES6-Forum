@@ -86,7 +86,7 @@ function articleTemplate(title, lastReply) {
 }
 
 function sidebarTemplate(name, avatar) {
-  var template = '\n    <div class="active-avatar">\n      <img width="54" src="images/' + avatar + '">\n      <h5 class="post-author">' + name + '</h5>\n    </div>';
+  var template = '\n    <div class="active-avatar">\n      <img width="54" src="assets/images/' + avatar + '">\n      <h5 class="post-author">' + name + '</h5>\n    </div>';
   return template;
 }
 

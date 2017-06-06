@@ -2,32 +2,32 @@
   "posts": [
     {
       "id": 1,
-      "title": "In hybrid moments, give me a moment",
+      "title": "Kurai ondrum illai marai murthy kanna",
       "lastReply": "1997-07-15"
     },
     {
       "id": 2,
-      "title": "Sound system gonna bring me back up",
+      "title": "Raghu vamsa sudambhudi chandra sri",
       "lastReply": "1991-07-01"
     },
     {
       "id": 3,
-      "title": "When I'm out walkin', I strut my stuff",
+      "title": "Duduku gala nanne dora koduku brochura",
       "lastReply": "1983-04-19"
     }
   ],
 
   "activeUsers": [
     {
-      "name": "Priya",
+      "name": "Sruthi",
       "avatar": "avatar.jpg"
     },
     {
-      "name": "John",
+      "name": "Laya",
       "avatar": "avatar.jpg"
     },
     {
-      "name": "Mike",
+      "name": "Pallavi",
       "avatar": "avatar.jpg"
     }
   ]
